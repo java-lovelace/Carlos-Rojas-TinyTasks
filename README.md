@@ -1,7 +1,14 @@
 # 🧩 TinyTasks
 
-TinyTasks is a small full-stack project built to practice a clean and minimal CRUD application using **Spring Boot (Java 21)** for the backend and **HTML + JavaScript + Bootstrap** for the frontend.  
-It demonstrates the complete flow: **Frontend → REST API → Service → Repository (in-memory)**, with **unit tests using JUnit 5**.
+TinyTasks is a small full-stack project built to practice a clean and minimal CRUD application using **Spring Boot (Java 21)** for the backend and **HTML + JavaScript + Bootstrap** for the frontend.
+It demonstrates the complete flow: 
+
+```text
+┌────────────┐        ┌──────────────┐        ┌────────────┐        ┌────────────────┐
+│  Frontend  │  --->  │   REST API   │  --->  │   Service  │  --->  │  Repository 🗂️ │
+│ (HTML/JS)  │        │ (Controller) │        │  (Logic)   │        │ (In-memory)   │
+└────────────┘        └──────────────┘        └────────────┘        └────────────────┘
+```
 
 ---
 
